@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_principal"
+    app:startDestination="@+id/consulta_conv">
+
+    <fragment
+        android:id="@+id/consulta_conv"
+        android:name="com.example.g1c2movil.fragmentos.principal.Consulta_Conv"
+        android:label="Convocatorias"
+        tools:layout="@layout/fragment_consulta_conv">
+        <action
+            android:id="@+id/action_consulta_conv_self"
+            app:popUpTo="@id/consulta_conv"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/info_carreras"
+        android:name="com.example.g1c2movil.fragmentos.principal.Info_Carreras"
+        android:label="Oferta Educativa"
+        tools:layout="@layout/fragment_info_carreras">
+        <action
+            android:id="@+id/action_info_carreras_pop"
+            app:popUpTo="@id/info_carreras"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/instructivos"
+        android:name="com.example.g1c2movil.fragmentos.principal.Instructivos"
+        android:label="Instructivos"
+        tools:layout="@layout/fragment_instructivos">
+        <action
+            android:id="@+id/action_instructivos_self"
+            app:popUpTo="@id/instructivos"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/iniciar_sesion"
+        android:name="com.example.g1c2movil.fragmentos.principal.Login"
+        android:label="Inciar Sesion"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_iniciar_sesion_self"
+            app:popUpTo="@id/iniciar_sesion"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

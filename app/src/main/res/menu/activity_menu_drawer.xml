@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="REVISA">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_convocatoria"
+                        android:title="@string/menu_convocatoria"
+                        />
+                    <item
+                        android:id="@+id/nav_instructivo"
+                        android:title="@string/menu_instructivo"
+                        />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="CONSULTA">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_procesos"
+                        android:title="@string/menu_procesos"
+                        />
+                </group>
+            </menu>
+        </item>
+
+
+        <item android:title="ISTA">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_contactos"
+                        android:title="@string/menu_contacto"
+                        />
+                </group>
+            </menu>
+        </item>
+
+
+
+        <item android:title="CUENTA">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_sesion"
+                        android:title="Cerrar Sesión"
+                        />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/consulta_conv"
+        android:icon="@drawable/consulta_conv"
+        android:title=" " />
+
+    <item
+        android:id="@+id/info_carreras"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title=" " />
+
+    <item
+        android:id="@+id/instructivos"
+        android:icon="@drawable/instructivos"
+        android:title=" " />
+
+    <item
+        android:id="@+id/iniciar_sesion"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title=" " />
+
+</menu>

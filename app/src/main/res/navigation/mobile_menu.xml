@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_menu"
+    app:startDestination="@+id/nav_convocatoria">
+
+    <fragment
+        android:id="@+id/nav_convocatoria"
+        android:name="com.example.g1c2movil.fragmentos.menu.ConvocatoriaFragment"
+        android:label="@string/menu_convocatoria"
+        tools:layout="@layout/fragment_convocatoria" >
+        <action
+            android:id="@+id/action_nav_convocatoria_pop"
+            app:popUpTo="@id/nav_convocatoria"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_instructivo"
+        android:name="com.example.g1c2movil.fragmentos.menu.InstructivoFragment"
+        android:label="@string/menu_instructivo"
+        tools:layout="@layout/fragment_instructivo" >
+        <action
+            android:id="@+id/action_nav_instructivo_pop"
+            app:popUpTo="@id/nav_instructivo"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_procesos"
+        android:name="com.example.g1c2movil.fragmentos.menu.ProcesoFragment"
+        android:label="@string/menu_procesos"
+        tools:layout="@layout/fragment_proceso" >
+        <action
+            android:id="@+id/action_nav_procesos_pop"
+            app:popUpTo="@id/nav_procesos"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_contactos"
+        android:name="com.example.g1c2movil.fragmentos.menu.ContactoFragment"
+        android:label="@string/menu_contacto"
+        tools:layout="@layout/fragment_contacto" >
+        <action
+            android:id="@+id/action_nav_contactos_pop"
+            app:popUpTo="@id/nav_contactos"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

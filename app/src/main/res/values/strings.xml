@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" >G1C2Movil</string>
+    <string name="title_app">ISTA</string>
+    <string name="title_activity_principal_informacion">Principal_Informacion</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_convocatoria">Convocatoria</string>
+    <string name="menu_instructivo">Instructivo</string>
+    <string name="menu_procesos">Mis Procesos</string>
+    <string name="menu_contacto">Contacto</string>
+
+    <string name="anexo1">Anexo 1</string>
+
+</resources>
